@@ -1,0 +1,286 @@
+body{
+  text-align: center;
+  background-color: white;
+  margin: 0;
+}
+
+img{
+  width: 10%;
+}
+
+p{
+  width:50%;
+  margin: auto;
+  font-family: 'Work Sans', sans-serif;
+  color: #40514E;
+}
+
+hr{
+  border-style: dotted;
+  border-width: 10px;
+  border-top: 100px;
+  width: 5%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom-width: 10px;
+  border-left-width: 0;
+  border-right-width: 0;
+  padding-top: 10px;
+  color: #E8F9FD;
+}
+table{
+  margin: auto;
+}
+
+h1{
+  color: #2F8F9D;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+}
+
+h2{
+  margin-top: 10;
+  color: #2F8F9D;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 50px;
+}
+
+
+h3{
+  color: #243A73;
+}
+
+.TopContainer{
+  background-color: #B3E8E5;
+  margin-top: 0;
+  padding: 50px;
+}
+
+
+.letter{
+  position:fixed;
+  top: 210px;
+  right:40px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+
+.letter:hover{
+  width: 9%;
+}
+
+.makethingshappen{
+  position: relative;
+  top: 120px;
+  right:700px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2));
+}
+
+.makethingshappen:hover{
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+}
+
+.profile-pic{
+  padding-top: 40px;
+  /*float: left;*/
+  position: absolute;
+  left: 100px;
+  top: 340px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+/*
+.profilepic:hover{
+  width: 20%;
+}*/
+
+.AboutContainer{
+/*  background-color: #E8F9FD;*/
+}
+
+.abouttext{
+  width: 60%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+td{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.SkillContainer{
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.WorkContainer{
+  background-color: #E8F9FD;
+  /*padding-top: 10px;*/
+  padding-bottom: 50px;
+}
+
+.WhjrExp{
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.WhjrExp:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.WhjrLogo{
+  float:left;
+  padding-left: 300px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
+}
+
+.WhjrLogo:hover{
+  width: 11%;
+}
+
+.WhjrExpText{
+  width:40%;
+}
+
+.GoogleLogo{
+  float: right;
+  padding-right: 300px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.GoogleLogo:hover{
+  width:11%;
+}
+
+.GoogleExpText{
+  width: 40%;
+}
+
+.GoogleExp{
+  padding: 50px;
+}
+
+.GoogleExp:hover{
+  background-color: white;
+}
+
+.CodechefExp{
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.CodechefExp:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.CodechefLogo{
+  float: left;
+  padding-left: 300px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.CodechefLogo:hover{
+  width:11%;
+}
+
+.CodechefExpText{
+  width: 40%;
+}
+
+
+
+.TFIExp{
+  padding: 50px;
+}
+
+.TFIExpText{
+  width: 40%;
+}
+
+.TFILogo{
+  float: right;
+  padding-right: 300px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.TFILogo:hover{
+  width:11%;
+}
+
+.TFIExp:hover{
+  background-color: white;
+}
+
+.ProjectsTable{
+  padding: 10px;
+}
+
+/*.ProjectContainer{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+.ContactLogo{
+  width: 3%;
+  padding: 40px;
+  padding-bottom: 0px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.ContactLogo:hover{
+  width: 4%;
+}
+
+td{
+  text-align: center;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.FooterContainer{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+.ProjectsTable{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
