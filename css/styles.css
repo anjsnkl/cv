@@ -12,6 +12,10 @@
     width: 90%;
   }
 
+  .introPic:hover{
+    transform: scale(1.01);
+  }
+
   .introImage{
     text-align: right;
     margin-right: 0;
@@ -230,7 +234,61 @@ margin-bottom: 8%;
   margin-bottom: 5%;
 }
 
+.csrLogo:hover{
+  transform: scale(1.1);
+}
+
 .timeline{
   margin-top: 5%;
 }
 /* timeline css ends */
+
+.contactdetails{
+  font-size: 1rem;
+  padding: 1%;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 0;
+}
+
+.contact{
+
+  text-align:center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.socialmedia{
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+}
+
+
+.socialmediaLogo{
+  width: 8%;
+  padding: 1%;
+  margin-right: 5%;
+  padding-top: 1%;
+
+}
+
+
+.socialmediaLogo:hover{
+  /* width: 9%; */
+  transform: scale(1.2);
+}
+
+.accordion-body{
+  text-align: justify;
+}
+
+
+.csrsocialLogo{
+  margin-left: 5%;
+  width: 25px;
+}
+
+.csrsocialLogo:hover{
+  transform: scale(1.2);
+}
